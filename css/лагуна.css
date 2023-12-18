@@ -1,0 +1,16 @@
+.pikcha{
+    width: 720px;
+    height: auto;
+}
+.b1{
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    left: 53px;
+    top: 57px;
+    border: none;
+    background-color: transparent;
+}
+.b1:hover{
+    color: aqua;
+}
