@@ -501,3 +501,136 @@ button:hover{
     left: 620px;
     width: 10px;
 }
+#av4{
+    position: absolute;
+    top: 225px;
+    left: 416px;
+    width: 10px;
+}
+
+#av5{
+    position: absolute;
+    top: 225px;
+    left: 470px;
+    width: 10px;
+}
+#av6{
+    position: absolute;
+    top: 270px;
+    left: 470px;
+    width: 10px;
+}
+#av7{
+    position: absolute;
+    top: 330px;
+    left: 470px;
+    width: 10px;
+}
+#av8{
+    position: absolute;
+    top: 385px;
+    left: 470px;
+    width: 10px;
+}
+#cow1{
+    position: absolute;
+    top: 55px;
+    left: 485px;
+    width: 10px;
+}
+#cow2{
+    position: absolute;
+    top: 140px;
+    left: 485px;
+    width: 10px;
+}
+#cow3{
+    position: absolute;
+    top: 140px;
+    left: 405px;
+    width: 10px;
+}
+#cow4{
+    position: absolute;
+    top: 140px;
+    left: 380px;
+    width: 10px;
+}
+#cow5{
+    position: absolute;
+    top: 140px;
+    left: 355px;
+    width: 10px;
+}
+#ses13{
+    position: absolute;
+    top: 55px;
+    left: 455px;
+    width: 10px;
+}
+#ses14{
+    position: absolute;
+    top: 140px;
+    left: 455px;
+    width: 10px;
+}
+#ses15{
+    position: absolute;
+    top: 140px;
+    left: 426px;
+    width: 10px;
+}
+#ses16{
+    position: absolute;
+    top: 185px;
+    left: 530px;
+    width: 10px;
+}
+#ses17{
+    position: absolute;
+    top: 210px;
+    left: 540px;
+    width: 10px;
+}
+#ses18{
+    position: absolute;
+    top: 235px;
+    left: 540px;
+    width: 10px;
+}
+#ses19{
+    position: absolute;
+    top: 340px;
+    left: 535px;
+    width: 10px;
+}
+#tol1{
+    position: absolute;
+    top: 370px;
+    left: 530px;
+    width: 10px;   
+}
+#tol2{
+    position: absolute;
+    top: 370px;
+    left: 560px;
+    width: 10px;   
+}
+#lift6{
+    position: absolute;
+    top: 135px;
+    left: 565px;
+    width: 10px;
+}
+#lift7{
+    position: absolute;
+    top: 160px;
+    left: 565px;
+    width: 10px;
+}
+#lift8{
+    position: absolute;
+    top: 183px;
+    left: 565px;
+    width: 10px;
+}
