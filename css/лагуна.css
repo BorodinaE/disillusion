@@ -6,6 +6,8 @@ html, body {
    height: 100%;
 }
 
+body { font-family:'Courier New', Courier, monospace}
+
 .pikcha{
     width: 720px;
     height: auto;
