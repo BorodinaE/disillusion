@@ -13,13 +13,13 @@ body { font-family:'Courier New', Courier, monospace}
     height: auto;
 }
 
-
-
 button{
+    padding:0;
     border: 0;
     min-size: 2px;
     background: transparent;
     cursor: pointer;
+    font-size: 10px;
 }
 
 button:hover{
@@ -34,7 +34,6 @@ button:hover{
     height: 38px;
 }
 
-
 #proh2{
     position: absolute;
     top: 49px;
@@ -42,7 +41,6 @@ button:hover{
     width: 47px;
     height: 38px;
 }
-
 
 #proh3{
     position: absolute;
@@ -52,7 +50,6 @@ button:hover{
     height: 18px;
 }
 
-
 #proh4{
     position: absolute;
     top: 68px;
@@ -61,16 +58,13 @@ button:hover{
     height: 20px;
 }
 
-
 #proh5{
     position: absolute;
-    top: 49px;
+    top: 48px;
     left: 174px;
     width: 24px;
     height: 7px;
 }
-
-
 
 #proh6{
     position: absolute;
@@ -152,7 +146,6 @@ button:hover{
     height: 46px;
 }
 
-
 #proh16{
     position: absolute;
     top: 208px;
@@ -161,7 +154,6 @@ button:hover{
     height: 54px;
 }
 
-
 #proh17{
     position: absolute;
     top: 208px;
@@ -169,7 +161,6 @@ button:hover{
     width: 25px;
     height: 54px;
 }
-
 
 #proh18{
     position: absolute;
@@ -195,6 +186,289 @@ button:hover{
     height: 54px;
 }
 
+#proh21{
+    position: absolute;
+    top: 49px;
+    left: 508px;
+    width: 24px;
+    height: 51px;
+}
+
+#proh22{
+    position: absolute;
+    top: 49px;
+    left: 534px;
+    width: 24px;
+    height: 51px;
+}
+
+#proh23{
+    position: absolute;
+    top: 49px;
+    left: 560px;
+    width: 24px;
+    height: 51px;
+}
+
+#proh24{
+    position: absolute;
+    top: 49px;
+    left: 586px;
+    width: 24px;
+    height: 38px;
+}
+
+#proh25{
+    position: absolute;
+    top: 49px;
+    left: 612px;
+    width: 56px;
+    height: 55px;
+}
+
+
+#proh26{
+    position: absolute;
+    top: 106px;
+    left: 612px;
+    width: 56px;
+    height: 22px;
+}
+
+#proh27{
+    position: absolute;
+    top: 130px;
+    left: 612px;
+    width: 56px;
+    height: 23px;
+}
+
+#proh28{
+    position: absolute;
+    top: 155px;
+    left: 612px;
+    width: 56px;
+    height: 26px;
+}
+
+#proh29{
+    position: absolute;
+    top: 183px;
+    left: 612px;
+    width: 56px;
+    height: 23px;
+}
+
+#proh30{
+    position: absolute;
+    top: 135px;
+    left: 507px;
+    width: 23px;
+    height: 33px;
+}
+
+#proh31{
+    position: absolute;
+    top: 134px;
+    left: 532px;
+    width: 27px;
+    height: 47px;
+}
+
+#proh32{
+    position: absolute;
+    top: 208px;
+    left: 612px;
+    width: 56px;
+    height: 22px;
+}
+
+#proh33{
+    position: absolute;
+    top: 232px;
+    left: 612px;
+    width: 56px;
+    height: 28px;
+}
+
+#proh34{
+    position: absolute;
+    top: 262px;
+    left: 612px;
+    width: 56px;
+    height: 23px;
+}
+
+#proh35{
+    position: absolute;
+    top: 287px;
+    left: 612px;
+    width: 56px;
+    height: 23px;
+}
+
+#proh36{
+    position: absolute;
+    top: 258px;
+    left: 540px;
+    width: 25px;
+    height: 26px;
+}
+
+#proh37{
+    position: absolute;
+    top: 258px;
+    left: 567px;
+    width: 8px;
+    height: 26px;
+}
+
+#proh38{
+    position: absolute;
+    top: 286px;
+    left: 540px;
+    width: 34px;
+    height: 23px;
+}
+
+#proh39{
+    position: absolute;
+    top: 311px;
+    left: 540px;
+    width: 34px;
+    height: 24px;
+}
+
+#proh40{
+    position: absolute;
+    top: 338px;
+    left: 560px;
+    width: 15px;
+    height: 25px;
+}
+
+#proh41{
+    position: absolute;
+    top: 312px;
+    left: 612px;
+    width: 56px;
+    height: 28px;
+}
+
+#proh42{
+    position: absolute;
+    top: 342px;
+    left: 612px;
+    width: 56px;
+    height: 23px;
+}
+
+#proh43{
+    position: absolute;
+    top: 366px;
+    left: 614px;
+    width: 54px;
+    height: 22px;
+}
+
+#proh44{
+    position: absolute;
+    top: 524px;
+    left: 547px;
+    width: 29px;
+    height: 24px;
+}
+
+#proh45{
+    position: absolute;
+    top: 550px;
+    left: 528px;
+    width: 48px;
+    height: 28px;
+}
+
+#proh46{
+    position: absolute;
+    top: 579px;
+    left: 528px;
+    width: 48px;
+    height: 21px;
+}
+
+#proh47{
+    position: absolute;
+    top: 602px;
+    left: 523px;
+    width: 42px;
+    height: 25px;
+}
+
+#proh48{
+    position: absolute;
+    top: 630px;
+    left: 523px;
+    width: 53px;
+    height: 33px;
+}
+
+#proh49{
+    position: absolute;
+    top: 539px;
+    left: 626px;
+    width: 21px;
+    height: 10px;
+}
+
+#proh50{
+    position: absolute;
+    top: 539px;
+    left: 649px;
+    width: 11px;
+    height: 19px;
+}
+
+#proh51{
+    position: absolute;
+    top: 550px;
+    left: 626px;
+    width: 21px;
+    height: 27px;
+}
+
+#proh52{
+    position: absolute;
+    top: 559px;
+    left: 649px;
+    width: 11px;
+    height: 18px;
+}
+
+#proh53{
+    position: absolute;
+    top: 579px;
+    left: 626px;
+    width: 41px;
+    height: 54px;
+}
+
+#proh54{
+    position: absolute;
+    top: 634px;
+    left: 626px;
+    width: 41px;
+    height: 53px;
+}
+
+#proh55{
+    position: absolute;
+    top: 660px;
+    left: 603px;
+    width: 21px;
+    height: 27px;
+}
+
+
+
 #lift1{
     position: absolute;
     top: 208px;
@@ -203,7 +477,6 @@ button:hover{
     height: 54px;
 }
 
-
 #lift1{
     position: absolute;
     top: 139px;
@@ -211,7 +484,6 @@ button:hover{
     width: 24px;
     height: 23px;
 }
-
 
 #lift2{
     position: absolute;
@@ -229,7 +501,6 @@ button:hover{
     height: 15px;
 }
 
-
 #lift4{
     position: absolute;
     top: 137px;
@@ -246,6 +517,72 @@ button:hover{
     height: 15px;
 }
 
+#lift6{
+    position: absolute;
+    top: 135px;
+    left: 563px;
+    width: 21px;
+    height: 19px;
+}
+
+#lift7{
+    position: absolute;
+    top: 156px;
+    left: 562px;
+    width: 22px;
+    height: 25px;
+}
+
+#lift8{
+    position: absolute;
+    top: 183px;
+    left: 562px;
+    width: 22px;
+    height: 18px;
+}
+
+#lift9{
+    position: absolute;
+    top: 407px;
+    left: 539px;
+    width: 16px;
+    height: 19px;
+}
+
+#lift10{
+    position: absolute;
+    top: 407px;
+    left: 556px;
+    width: 16px;
+    height: 19px;
+}
+
+#lift11{
+    position: absolute;
+    top: 457px;
+    left: 539px;
+    width: 16px;
+    height: 19px;
+}
+
+#lift12{
+    position: absolute;
+    top: 457px;
+    left: 556px;
+    width: 16px;
+    height: 19px;
+}
+
+#lift13{
+    position: absolute;
+    top: 495px;
+    left: 543px;
+    width: 26px;
+    height: 27px;
+}
+
+
+
 #av1{
     position: absolute;
     top: 49px;
@@ -253,7 +590,6 @@ button:hover{
     width: 101px;
     height: 51px;
 }
-
 
 #av2{
     position: absolute;
@@ -271,6 +607,64 @@ button:hover{
     height: 52px;
 }
 
+#av4{
+    position: absolute;
+    top: 210px;
+    left: 402px;
+    width: 51px;
+    height: 43px;
+}
+
+#av5{
+    position: absolute;
+    top: 210px;
+    left: 455px;
+    width: 47px;
+    height: 43px;
+}
+
+#av6{
+    position: absolute;
+    top: 264px;
+    left: 444px;
+    width: 58px;
+    height: 45px;
+}
+
+#av7{
+    position: absolute;
+    top: 311px;
+    left: 444px;
+    width: 58px;
+    height: 51px;
+}
+
+#av8{
+    position: absolute;
+    top: 364px;
+    left: 444px;
+    width: 58px;
+    height: 52px;
+}
+
+#av9{
+    position: absolute;
+    top: 452px;
+    left: 443px;
+    width: 55px;
+    height: 69px;
+}
+
+#av10{
+    position: absolute;
+    top: 549px;
+    left: 443px;
+    width: 55px;
+    height: 84px;
+}
+
+
+
 #ses1{
     position: absolute;
     top: 135px;
@@ -279,6 +673,21 @@ button:hover{
     height: 28px;
 }
 
+#ses2{
+    position: absolute;
+    top: 165px;
+    left: 174px;
+    width: 10px;
+    height: 16px;
+}
+
+#ses3{
+    position: absolute;
+    top: 165px;
+    left: 187px;
+    width: 10px;
+    height: 16px;
+}
 
 #ses4{
     position: absolute;
@@ -288,16 +697,14 @@ button:hover{
     height: 11px;
 }
 
-
 #ses5{
-    width: 4px;
-    height: 12px;
     position: absolute;
-    top: 170px;
-    left: 170px;
-    
-}
+    top: 126px;
+    left: 208px;
+    width: 16px;
+    height: 11px;
 
+}
 
 #ses6{
     position: absolute;
@@ -307,6 +714,13 @@ button:hover{
     height: 17px;
 }
 
+#ses7{
+    position: absolute;
+    top: 126px;
+    left: 242px;
+    width: 7px;
+    height: 8px;
+}
 
 #ses8{
     position: absolute;
@@ -324,7 +738,6 @@ button:hover{
     height: 10px;
 }
 
-
 #ses10{
     position: absolute;
     top: 126px;
@@ -332,7 +745,6 @@ button:hover{
     width: 26px;
     height: 9px;
 }
-
 
 #ses11{
     position: absolute;
@@ -342,7 +754,6 @@ button:hover{
     height: 10px;
 }
 
-
 #ses12{
     position: absolute;
     top: 49px;
@@ -351,390 +762,62 @@ button:hover{
     height: 51px;
 }
 
-
-#proh21{
-    position: absolute;
-    top: 55px;
-    left: 510px;
-    width: 10px;
-}
-
-#proh22{
-    position: absolute;
-    top: 55px;
-    left: 535px;
-    width: 10px;
-}
-
-#proh23{
-    position: absolute;
-    top: 55px;
-    left: 560px;
-    width: 10px;
-}
-#proh24{
-    position: absolute;
-    top: 55px;
-    left: 590px;
-    width: 10px;
-}
-
-#proh25{
-    position: absolute;
-    top: 90px;
-    left: 590px;
-    width: 10px;
-}
-#proh26{
-    position: absolute;
-    top: 55px;
-    left: 620px;
-    width: 10px;
-}
-#proh27{
-    position: absolute;
-    top: 110px;
-    left: 620px;
-    width: 10px;
-}
-#proh28{
-    position: absolute;
-    top: 135px;
-    left: 620px;
-    width: 10px;
-}
-#proh29{
-    position: absolute;
-    top: 160px;
-    left: 620px;
-    width: 10px;
-}
-#proh30{
-    position: absolute;
-    top: 185px;
-    left: 620px;
-    width: 10px;
-}
-
-#proh31{
-    position: absolute;
-    top: 135px;
-    left: 510px;
-    width: 10px;
-}
-
-#proh32{
-    position: absolute;
-    top: 135px;
-    left: 535px;
-    width: 10px;
-}
-
-#proh33{
-    position: absolute;
-    top: 210px;
-    left: 620px;
-    width: 10px;
-}
-#proh34{
-    position: absolute;
-    top: 240px;
-    left: 620px;
-    width: 10px;
-}
-#proh35{
-    position: absolute;
-    top: 265px;
-    left: 620px;
-    width: 10px;
-}
-#proh36{
-    position: absolute;
-    top: 290px;
-    left: 620px;
-    width: 10px;
-}
-#proh37{
-    position: absolute;
-    top: 265px;
-    left: 540px;
-    width: 10px;
-}
-#proh38{
-    position: absolute;
-    top: 265px;
-    left: 560px;
-    width: 10px;
-}
-#proh39{
-    position: absolute;
-    top: 290px;
-    left: 540px;
-    width: 10px;
-}
-#proh40{
-    position: absolute;
-    top: 310px;
-    left: 540px;
-    width: 10px;
-}
-#proh41{
-    position: absolute;
-    top: 340px;
-    left: 560px;
-    width: 10px;
-}
-#proh42{
-    position: absolute;
-    top: 320px;
-    left: 620px;
-    width: 10px;
-}
-#proh43{
-    position: absolute;
-    top: 345px;
-    left: 620px;
-    width: 10px;
-}
-#proh44{
-    position: absolute;
-    top: 370px;
-    left: 620px;
-    width: 10px;
-}
-#av4{
-    position: absolute;
-    top: 225px;
-    left: 416px;
-    width: 10px;
-}
-
-#av5{
-    position: absolute;
-    top: 225px;
-    left: 470px;
-    width: 10px;
-}
-#av6{
-    position: absolute;
-    top: 270px;
-    left: 470px;
-    width: 10px;
-}
-#av7{
-    position: absolute;
-    top: 330px;
-    left: 470px;
-    width: 10px;
-}
-#av8{
-    position: absolute;
-    top: 385px;
-    left: 470px;
-    width: 10px;
-}
-#cow1{
-    position: absolute;
-    top: 55px;
-    left: 485px;
-    width: 10px;
-}
-#cow2{
-    position: absolute;
-    top: 140px;
-    left: 485px;
-    width: 10px;
-}
-#cow3{
-    position: absolute;
-    top: 140px;
-    left: 405px;
-    width: 10px;
-}
-#cow4{
-    position: absolute;
-    top: 140px;
-    left: 380px;
-    width: 10px;
-}
-#cow5{
-    position: absolute;
-    top: 140px;
-    left: 355px;
-    width: 10px;
-}
 #ses13{
     position: absolute;
-    top: 55px;
-    left: 455px;
-    width: 10px;
+    top: 48px;
+    left: 456px;
+    width: 24px;
+    height: 51px;
 }
+
 #ses14{
     position: absolute;
-    top: 140px;
+    top: 134px;
     left: 455px;
-    width: 10px;
-}
-#ses15{
-    position: absolute;
-    top: 140px;
-    left: 426px;
-    width: 10px;
-}
-#ses16{
-    position: absolute;
-    top: 185px;
-    left: 530px;
-    width: 10px;
-}
-#ses17{
-    position: absolute;
-    top: 210px;
-    left: 540px;
-    width: 10px;
-}
-#ses18{
-    position: absolute;
-    top: 235px;
-    left: 540px;
-    width: 10px;
-}
-#ses19{
-    position: absolute;
-    top: 340px;
-    left: 535px;
-    width: 10px;
-}
-#tol1{
-    position: absolute;
-    top: 370px;
-    left: 530px;
-    width: 10px;   
-}
-#tol2{
-    position: absolute;
-    top: 370px;
-    left: 560px;
-    width: 10px;   
-}
-#lift6{
-    position: absolute;
-    top: 135px;
-    left: 565px;
-    width: 10px;
-}
-#lift7{
-    position: absolute;
-    top: 160px;
-    left: 565px;
-    width: 10px;
-}
-#lift8{
-    position: absolute;
-    top: 183px;
-    left: 565px;
-    width: 10px;
-}
-#av9{
-    position: absolute;
-    top: 452px;
-    left: 443px;
-    width: 55px;
-    height: 69px;
-}
-
-#av10{
-    position: absolute;
-    top: 549px;
-    left: 443px;
-    width: 55px;
-    height: 84px;
-}
-
-#proh45{
-    position: absolute;
-    top: 524px;
-    left: 547px;
-    width: 29px;
-    height: 24px;
-}
-#proh46{
-    position: absolute;
-    top: 550px;
-    left: 528px;
-    width: 48px;
-    height: 28px;
-}
-#proh47{
-    position: absolute;
-    top: 579px;
-    left: 528px;
-    width: 48px;
-    height: 21px;
-}
-#proh48{
-    position: absolute;
-    top: 602px;
-    left: 523px;
-    width: 42px;
-    height: 25px;
-}
-#proh49{
-    position: absolute;
-    top: 630px;
-    left: 523px;
-    width: 53px;
+    width: 26px;
     height: 33px;
 }
-#proh50{
+
+#ses15{
     position: absolute;
-    top: 539px;
-    left: 626px;
-    width: 21px;
-    height: 10px;
+    top: 134px;
+    left: 429px;
+    width: 24px;
+    height: 33px;
 }
-#proh51{
+
+#ses16{
     position: absolute;
-    top: 539px;
-    left: 649px;
-    width: 11px;
-    height: 19px;
+    top: 183px;
+    left: 534px;
+    width: 25px;
+    height: 23px;
 }
-#proh52{
+
+#ses17{
     position: absolute;
-    top: 550px;
-    left: 626px;
-    width: 21px;
-    height: 27px;
+    top: 208px;
+    left: 540px;
+    width: 35px;
+    height: 22px;
 }
-#proh53{
+
+#ses18{
     position: absolute;
-    top: 559px;
-    left: 649px;
-    width: 11px;
-    height: 18px;
+    top: 232px;
+    left: 540px;
+    width: 35px;
+    height: 24px;
 }
-#proh54{
+
+#ses19{
     position: absolute;
-    top: 579px;
-    left: 626px;
-    width: 41px;
-    height: 54px;
+    top: 338px;
+    left: 540px;
+    width: 18px;
+    height: 25px;
 }
-#proh55{
-    position: absolute;
-    top: 634px;
-    left: 626px;
-    width: 41px;
-    height: 53px;
-}
-#proh56{
-    position: absolute;
-    top: 660px;
-    left: 603px;
-    width: 21px;
-    height: 27px;
-}
+
 #ses20{
     position: absolute;
     top: 406px;
@@ -742,6 +825,7 @@ button:hover{
     width: 10px;
     height: 26px;
 }
+
 #ses21{
     position: absolute;
     top: 406px;
@@ -749,6 +833,7 @@ button:hover{
     width: 9px;
     height: 26px;
 }
+
 #ses22{
     position: absolute;
     top: 449px;
@@ -756,6 +841,7 @@ button:hover{
     width: 10px;
     height: 26px;
 }
+
 #ses23{
     position: absolute;
     top: 449px;
@@ -763,6 +849,7 @@ button:hover{
     width: 9px;
     height: 26px;
 }
+
 #ses24{
     position: absolute;
     top: 495px;
@@ -770,6 +857,7 @@ button:hover{
     width: 13px;
     height: 27px;
 }
+
 #ses25{
     position: absolute;
     top: 495px;
@@ -777,53 +865,97 @@ button:hover{
     width: 13px;
     height: 27px;
 }
+
 #ses26{
     position: absolute;
-    top: 523px;
-    left: 528px;
-    width: 17px;
+    top: 524px;
+    left: 529px;
+    width: 16px;
     height: 12px;
 }
+
 #ses27{
     position: absolute;
-    top: 57px;
+    top: 538px;
     left: 528px;
     width: 17px;
     height: 11px;
 }
-#lift9{
+
+
+
+#cow1{
     position: absolute;
-    top: 407px;
-    left: 539px;
-    width: 16px;
-    height: 19px;
+    top: 49px;
+    left: 482px;
+    width: 23px;
+    height: 50px;
 }
-#lift10{
+
+#cow2{
     position: absolute;
-    top: 407px;
-    left: 556px;
-    width: 16px;
-    height: 19px;
+    top: 135px;
+    left: 482px;
+    width: 23px;
+    height: 32px;
 }
-#lift11{
+
+#cow3{
     position: absolute;
-    top: 457px;
-    left: 539px;
-    width: 16px;
-    height: 19px;
+    top: 135px;
+    left: 404px;
+    width: 23px;
+    height: 32px;
 }
-#lift12{
+
+#cow4{
     position: absolute;
-    top: 457px;
-    left: 556px;
-    width: 16px;
-    height: 19px;
+    top: 135px;
+    left: 378px;
+    width: 23px;
+    height: 32px;
 }
-#lift13{
+
+#cow5{
     position: absolute;
-    top: 495px;
-    left: 543px;
-    width: 26px;
+    top: 135px;
+    left: 354px;
+    width: 22px;
+    height: 32px;
+}
+
+
+
+
+#tol1{
+    position: absolute;
+    top: 365px;
+    left: 528px;
+    width: 27px;
+    height: 27px;
+}
+
+#tol2{
+    position: absolute;
+    top: 365px;
+    left: 557px;
+    width: 27px;
+    height: 27px;
+}
+
+#tol3{
+    position: absolute;
+    top: 126px;
+    left: 320px;
+    width: 31px;
+    height: 26px;
+}
+
+#tol4{
+    position: absolute;
+    top: 154px;
+    left: 320px;
+    width: 31px;
     height: 27px;
 }
 
@@ -844,7 +976,7 @@ button:hover{
     margin: auto;
     padding: 20px 8px 20px 8px;
     box-shadow: 0 0 720px 720px rgba(51, 54, 100, 0.5);
-    
+
 }
 .window:target {display: block;}
 .close {
@@ -857,7 +989,7 @@ button:hover{
     text-decoration: none;
     cursor: pointer;
 }
-.close:hover{ 
+.close:hover{
     background-color: blueviolet;
 }
 #window_b1, #window_b2, #window_b3, #window_b4, #window_b5, #window_b6{
@@ -866,7 +998,7 @@ button:hover{
     top: 50%;
     z-index: 2;
     display: none;
-    
+
 }
 #window_b1:target {display: block;}
 #window_b2:target {display: block;}
