@@ -993,9 +993,12 @@ button:hover{
     background-color: blueviolet;
 }
 #window_b1, #window_b2, #window_b3, #window_b4, #window_b5, #window_b6{
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    top: 0;
     width: 100%;
-    position: absolute;
-    top: 50%;
+    height: 100%;
     z-index: 2;
     display: none;
 
