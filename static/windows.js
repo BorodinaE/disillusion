@@ -19,11 +19,11 @@ async function schedule_get(room_type, number){
 }
 
 
-async function fun(number, room_type){
+async function work_with_window(number, room_type){
 	if (room_type == ROOM_TYPE_LEARNING){
 	 var tip = "Учебная аудитория № ";
 	 var schedule = await schedule_get(room_type, number);
-	 console.log(schedule);
+	 console.log(schedule[0]);
 
 	}
 	if (room_type == ROOM_TYPE_TEACHERS){
