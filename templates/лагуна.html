@@ -1,186 +1,140 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="static/лагуна.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="static/лагуна.css">
 </head>
 <body>
-    <section class="common">
-        <img src="static/8этаж.svg" class="pikcha">
+<section class="common">
+    <img src="static/8этаж.svg" class="pikcha">
 
-        <div id="window_b1">
-            <div class="window">
-                Аудитория №<br>
-                <a href="#" class="close">Закрыть окно</a>
-            </div>
+    <div id="window_b1">
+        <div class="window">
+            <div class="win1"></div>
+            <a href="#" class="close">Закрыть окно</a>
         </div>
-        <div id="window_b2">
-            <div class="window">
-                Вход только для преподавателей<br>
-                <a href="#" class="close">Закрыть окно</a>
-            </div>
-        </div>
-        <div id="window_b3">
-            <div class="window">
-                Служебное помещение<br>
-                <a href="#" class="close">Закрыть окно</a>
-            </div>
-        </div>
-        <div id="window_b4">
-            <div class="window">
-                Лифт<br>
-                <a href="#" class="close">Закрыть окно</a>
-            </div>
-        </div>
-        <div id="window_b5">
-            <div class="window">
-                Коворкинг №<br>
-                <a href="#" class="close">Закрыть окно</a>
-            </div>
-        </div>
-        <div id="window_b6">
-            <div class="window">
-                Туалет<br>
-                <a href="#" class="close">Закрыть окно</a>
-            </div>
-        </div>
+    </div>
 
+    <a href="#window_b1">
+        <button onclick="fun(1,0)" class="available" id="av1">1</button> <!--разрешённые для посещения студентам -->
+        <button onclick="fun(2,0)" class="available" id="av2">2</button>
+        <button onclick="fun(3,0)" class="available" id="av3">3</button>
+        <button onclick="fun(4,0)" class="available" id="av4">4</button>
+        <button onclick="fun(5,0)" class="available" id="av5">5</button>
+        <button onclick="fun(6,0)" class="available" id="av6">6</button>
+        <button onclick="fun(7,0)" class="available" id="av7">7</button>
+        <button onclick="fun(8,0)" class="available" id="av8">8</button>
+        <button onclick="fun(9,0)" class="available" id="av9">9</button>
+        <button onclick="fun(10,0)" class="available" id="av10">10</button>
 
-        <a href="#window_b1">
-            <button class="available" id="av1">1</button> <!--разрешённые для посещения студентам -->
-            <button class="available" id="av2">2</button>
-            <button class="available" id="av3">3</button>
-            <button class="available" id="av4">4</button>
-            <button class="available" id="av5">5</button>
-            <button class="available" id="av6">6</button>
-            <button class="available" id="av7">7</button>
-            <button class="available" id="av8">8</button>
-            <button class="available" id="av9">9</button>
-            <button class="available" id="av10">10</button>
-        </a>
+        <button onclick="fun(1,1)" class="prohibited_zone" id="proh1">1</button>
+        <button onclick="fun(2,1)" class="prohibited_zone" id="proh2">2</button>
+        <button onclick="fun(3,1)" class="prohibited_zone" id="proh3">3</button>
+        <button onclick="fun(4,1)" class="prohibited_zone" id="proh4">4</button>
+        <button onclick="fun(5,1)" class="prohibited_zone" id="proh5">5</button>
+        <button onclick="fun(6,1)" class="prohibited_zone" id="proh6">6</button>
+        <button onclick="fun(7,1)" class="prohibited_zone" id="proh7">7</button>
+        <button onclick="fun(8,1)" class="prohibited_zone" id="proh8">8</button>
+        <button onclick="fun(9,1)" class="prohibited_zone" id="proh9">9</button>
+        <button onclick="fun(10,1)" class="prohibited_zone" id="proh10">10</button>
+        <button onclick="fun(11,1)" class="prohibited_zone" id="proh11">11</button>
+        <button onclick="fun(12,1)" class="prohibited_zone" id="proh12">12</button>
+        <button onclick="fun(13,1)" class="prohibited_zone" id="proh13">13</button>
+        <button onclick="fun(14,1)" class="prohibited_zone" id="proh14">14</button>
+        <button onclick="fun(15,1)" class="prohibited_zone" id="proh15">15</button>
+        <button onclick="fun(16,1)" class="prohibited_zone" id="proh16">16</button>
+        <button onclick="fun(17,1)" class="prohibited_zone" id="proh17">17</button>
+        <button onclick="fun(18,1)" class="prohibited_zone" id="proh18">18</button>
+        <button onclick="fun(19,1)" class="prohibited_zone" id="proh19">19</button>
+        <button onclick="fun(20,1)" class="prohibited_zone" id="proh20">20</button>
+        <button onclick="fun(21,1)" class="prohibited_zone" id="proh21">21</button>
+        <button onclick="fun(22,1)" class="prohibited_zone" id="proh22">22</button>
+        <button onclick="fun(23,1)" class="prohibited_zone" id="proh23">23</button>
+        <button onclick="fun(24,1)" class="prohibited_zone" id="proh24">24</button>
+        <button onclick="fun(25,1)" class="prohibited_zone" id="proh25">25</button>
+        <button onclick="fun(26,1)" class="prohibited_zone" id="proh26">26</button>
+        <button onclick="fun(27,1)" class="prohibited_zone" id="proh27">27</button>
+        <button onclick="fun(28,1)" class="prohibited_zone" id="proh28">28</button>
+        <button onclick="fun(29,1)" class="prohibited_zone" id="proh29">29</button>
+        <button onclick="fun(30,1)" class="prohibited_zone" id="proh30">30</button>
+        <button onclick="fun(31,1)" class="prohibited_zone" id="proh31">31</button>
+        <button onclick="fun(32,1)" class="prohibited_zone" id="proh32">32</button>
+        <button onclick="fun(33,1)" class="prohibited_zone" id="proh33">33</button>
+        <button onclick="fun(34,1)" class="prohibited_zone" id="proh34">34</button>
+        <button onclick="fun(35,1)" class="prohibited_zone" id="proh35">35</button>
+        <button onclick="fun(36,1)" class="prohibited_zone" id="proh36">36</button>
+        <button onclick="fun(37,1)" class="prohibited_zone" id="proh37">37</button>
+        <button onclick="fun(38,1)" class="prohibited_zone" id="proh38">38</button>
+        <button onclick="fun(39,1)" class="prohibited_zone" id="proh39">39</button>
+        <button onclick="fun(40,1)" class="prohibited_zone" id="proh40">40</button>
+        <button onclick="fun(41,1)" class="prohibited_zone" id="proh41">41</button>
+        <button onclick="fun(42,1)" class="prohibited_zone" id="proh42">42</button>
+        <button onclick="fun(43,1)" class="prohibited_zone" id="proh43">43</button>
+        <button onclick="fun(44,1)" class="prohibited_zone" id="proh44">44</button>
+        <button onclick="fun(45,1)" class="prohibited_zone" id="proh45">45</button>
+        <button onclick="fun(46,1)" class="prohibited_zone" id="proh46">46</button>
+        <button onclick="fun(47,1)" class="prohibited_zone" id="proh47">47</button>
+        <button onclick="fun(48,1)" class="prohibited_zone" id="proh48">48</button>
+        <button onclick="fun(49,1)" class="prohibited_zone" id="proh49">49</button>
+        <button onclick="fun(50,1)" class="prohibited_zone" id="proh50">50</button>
+        <button onclick="fun(51,1)" class="prohibited_zone" id="proh51">51</button>
+        <button onclick="fun(52,1)" class="prohibited_zone" id="proh52">52</button>
+        <button onclick="fun(53,1)" class="prohibited_zone" id="proh53">53</button>
+        <button onclick="fun(54,1)" class="prohibited_zone" id="proh54">54</button>
+        <button onclick="fun(55,1)" class="prohibited_zone" id="proh55">55</button>
 
-        <a href="#window_b2">
-            <button class="prohibited_zone" id="proh1">1</button> <!--комнаты куда нельзя студентам-->
-            <button class="prohibited_zone" id="proh2">2</button>
-            <button class="prohibited_zone" id="proh3">3</button>
-            <button class="prohibited_zone" id="proh4">4</button>
-            <button class="prohibited_zone" id="proh5">5</button>
-            <button class="prohibited_zone" id="proh6">6</button>
-            <button class="prohibited_zone" id="proh7">7</button>
-            <button class="prohibited_zone" id="proh8">8</button>
-            <button class="prohibited_zone" id="proh9">9</button>
-            <button class="prohibited_zone" id="proh10">10</button>
-            <button class="prohibited_zone" id="proh11">11</button>
-            <button class="prohibited_zone" id="proh12">12</button>
-            <button class="prohibited_zone" id="proh13">13</button>
-            <button class="prohibited_zone" id="proh14">14</button>
-            <button class="prohibited_zone" id="proh15">15</button>
-            <button class="prohibited_zone" id="proh16">16</button>
-            <button class="prohibited_zone" id="proh17">17</button>
-            <button class="prohibited_zone" id="proh18">18</button>
-            <button class="prohibited_zone" id="proh19">19</button>
-            <button class="prohibited_zone" id="proh20">20</button>
-            <button class="prohibited_zone" id="proh21">21</button>
-            <button class="prohibited_zone" id="proh22">22</button>
-            <button class="prohibited_zone" id="proh23">23</button>
-            <button class="prohibited_zone" id="proh24">24</button>
-            <button class="prohibited_zone" id="proh25">25</button>
-            <button class="prohibited_zone" id="proh26">26</button>
-            <button class="prohibited_zone" id="proh27">27</button>
-            <button class="prohibited_zone" id="proh28">28</button>
-            <button class="prohibited_zone" id="proh29">29</button>
-            <button class="prohibited_zone" id="proh30">30</button>
-            <button class="prohibited_zone" id="proh31">31</button>
-            <button class="prohibited_zone" id="proh32">32</button>
-            <button class="prohibited_zone" id="proh33">33</button>
-            <button class="prohibited_zone" id="proh34">34</button>
-            <button class="prohibited_zone" id="proh35">35</button>
-            <button class="prohibited_zone" id="proh36">36</button>
-            <button class="prohibited_zone" id="proh37">37</button>
-            <button class="prohibited_zone" id="proh38">38</button>
-            <button class="prohibited_zone" id="proh39">39</button>
-            <button class="prohibited_zone" id="proh40">40</button>
-            <button class="prohibited_zone" id="proh41">41</button>
-            <button class="prohibited_zone" id="proh42">42</button>
-            <button class="prohibited_zone" id="proh43">43</button>
-            <button class="prohibited_zone" id="proh44">44</button>
-            <button class="prohibited_zone" id="proh45">45</button>
-            <button class="prohibited_zone" id="proh46">46</button>
-            <button class="prohibited_zone" id="proh47">47</button>
-            <button class="prohibited_zone" id="proh48">48</button>
-            <button class="prohibited_zone" id="proh49">49</button>
-            <button class="prohibited_zone" id="proh50">50</button>
-            <button class="prohibited_zone" id="proh51">51</button>
-            <button class="prohibited_zone" id="proh52">52</button>
-            <button class="prohibited_zone" id="proh53">53</button>
-            <button class="prohibited_zone" id="proh54">54</button>
-            <button class="prohibited_zone" id="proh55">55</button>
+        <button onclick="fun(1,2)" class="service_space" id="ses1"> 1</button>
+        <button onclick="fun(2,2)" class="service_space" id="ses2"> 2</button>
+        <button onclick="fun(3,2)" class="service_space" id="ses3"> 3</button>
+        <button onclick="fun(4,2)" class="service_space" id="ses4"> 4</button>
+        <button onclick="fun(5,2)" class="service_space" id="ses5"> 5</button>
+        <button onclick="fun(6,2)" class="service_space" id="ses6"> 6</button>
+        <button onclick="fun(7,2)" class="service_space" id="ses7"> 7</button>
+        <button onclick="fun(8,2)" class="service_space" id="ses8"> 8</button>
+        <button onclick="fun(9,2)" class="service_space" id="ses9"> 9</button>
+        <button onclick="fun(10,2)" class="service_space" id="ses10"> 10</button>
+        <button onclick="fun(11,2)" class="service_space" id="ses11"> 11</button>
+        <button onclick="fun(12,2)" class="service_space" id="ses12"> 12</button>
+        <button onclick="fun(13,2)" class="service_space" id="ses13"> 13</button>
+        <button onclick="fun(14,2)" class="service_space" id="ses14"> 14</button>
+        <button onclick="fun(15,2)" class="service_space" id="ses15"> 15</button>
+        <button onclick="fun(16,2)" class="service_space" id="ses16"> 16</button>
+        <button onclick="fun(17,2)" class="service_space" id="ses17"> 17</button>
+        <button onclick="fun(18,2)" class="service_space" id="ses18"> 18</button>
+        <button onclick="fun(19,2)" class="service_space" id="ses19"> 19</button>
+        <button onclick="fun(20,2)" class="service_space" id="ses20"> 20</button>
+        <button onclick="fun(21,2)" class="service_space" id="ses21"> 21</button>
+        <button onclick="fun(22,2)" class="service_space" id="ses22"> 22</button>
+        <button onclick="fun(23,2)" class="service_space" id="ses23"> 23</button>
+        <button onclick="fun(24,2)" class="service_space" id="ses24"> 24</button>
+        <button onclick="fun(25,2)" class="service_space" id="ses25"> 25</button>
+        <button onclick="fun(26,2)" class="service_space" id="ses26"> 26</button>
+        <button onclick="fun(27,2)" class="service_space" id="ses27"> 27</button>
 
-        </a>
+        <button onclick="fun(1,3)" class="lift" id="lift1">1</button>
+        <button onclick="fun(2,3)" class="lift" id="lift2">2</button>
+        <button onclick="fun(3,3)" class="lift" id="lift3">3</button>
+        <button onclick="fun(4,3)" class="lift" id="lift4">4</button>
+        <button onclick="fun(5,3)" class="lift" id="lift5">5</button>
+        <button onclick="fun(6,3)" class="lift" id="lift6">6</button>
+        <button onclick="fun(7,3)" class="lift" id="lift7">7</button>
+        <button onclick="fun(8,3)" class="lift" id="lift8">8</button>
+        <button onclick="fun(9,3)" class="lift" id="lift9">9</button>
+        <button onclick="fun(10,3)" class="lift" id="lift10">10</button>
+        <button onclick="fun(11,3)" class="lift" id="lift11">11</button>
+        <button onclick="fun(12,3)" class="lift" id="lift12">12</button>
+        <button onclick="fun(13,3)" class="lift" id="lift13">13</button>
 
-        <a href="#window_b3">
-            <button class="service_space" id="ses1">1</button> <!--служебные помещения -->
-            <button class="service_space" id="ses2">2</button>
-            <button class="service_space" id="ses3">3</button>
-            <button class="service_space" id="ses4">4</button>
-            <button class="service_space" id="ses5">5</button>
-            <button class="service_space" id="ses6">6</button>
-            <button class="service_space" id="ses7">7</button>
-            <button class="service_space" id="ses8">8</button>
-            <button class="service_space" id="ses9">9</button>
-            <button class="service_space" id="ses10">10</button>
-            <button class="service_space" id="ses11">11</button>
-            <button class="service_space" id="ses12">12</button>
-            <button class="service_space" id="ses13">13</button>
-            <button class="service_space" id="ses14">14</button>
-            <button class="service_space" id="ses15">15</button>
-            <button class="service_space" id="ses16">16</button>
-            <button class="service_space" id="ses17">17</button>
-            <button class="service_space" id="ses18">18</button>
-            <button class="service_space" id="ses19">19</button>
-            <button class="service_space" id="ses20">20</button>
-            <button class="service_space" id="ses21">21</button>
-            <button class="service_space" id="ses22">22</button>
-            <button class="service_space" id="ses23">23</button>
-            <button class="service_space" id="ses24">24</button>
-            <button class="service_space" id="ses25">25</button>
-            <button class="service_space" id="ses26">26</button>
-            <button class="service_space" id="ses27">27</button>
-        </a>
+        <button onclick="fun(1,4)" class="coworking" id="cow1">1</button> <!--Коворкинги-->
+        <button onclick="fun(2,4)" class="coworking" id="cow2">2</button>
+        <button onclick="fun(3,4)" class="coworking" id="cow3">3</button>
+        <button onclick="fun(4,4)" class="coworking" id="cow4">4</button>
 
-        <a href="#window_b4">
-            <button class="lift" id="lift1">1</button> <!--лифты -->
-            <button class="lift" id="lift2">2</button>
-            <button class="lift" id="lift3">3</button>
-            <button class="lift" id="lift4">4</button>
-            <button class="lift" id="lift5">5</button>
-            <button class="lift" id="lift6">6</button>
-            <button class="lift" id="lift7">7</button>
-            <button class="lift" id="lift8">8</button>
-            <button class="lift" id="lift9">9</button>
-            <button class="lift" id="lift10">10</button>
-            <button class="lift" id="lift11">11</button>
-            <button class="lift" id="lift12">12</button>
-            <button class="lift" id="lift13">13</button>
-        </a>
-
-        <a href="#window_b5">
-            <button class="coworking" id="cow1">1</button> <!--Коворкинги-->
-            <button class="coworking" id="cow2">2</button>
-            <button class="coworking" id="cow3">3</button>
-            <button class="coworking" id="cow4">4</button>
-            <button class="coworking" id="cow5">5</button>
-        </a>
-
-        <a href="#window_b6">
-            <button class="toliet" id="tol1">1</button> <!--туалеты-->
-            <button class="toliet" id="tol2">2</button>
-            <button class="toliet" id="tol3">3</button>
-            <button class="toliet" id="tol4">4</button>
-        </a>
-
-    </section>
+        <button onclick="fun(1,5)" class="toilet" id="tol1">1</button> <!--туалеты-->
+        <button onclick="fun(2,5)" class="toilet" id="tol2">2</button>
+        <button onclick="fun(3,5)" class="toilet" id="tol3">3</button>
+        <button onclick="fun(4,5)" class="toilet" id="tol4">4</button>
+    </a>
+</section>
+<script src="{{url_for('static', filename='windows.js')}}"></script>
 </body>
 </html>
