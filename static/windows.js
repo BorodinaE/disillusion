@@ -1,40 +1,45 @@
-// Учебная аудитория - b = 0
-// Вход только для преподавателей - b = 1
-// Служебное помещение - b = 2
-// Лифты - b = 3
-// Коворкинги - b = 4
-// Туалеты - b = 5
+const ROOM_TYPE_LEARNING = 0;
+const ROOM_TYPE_TEACHERS = 1;
+const ROOM_TYPE_SERVICE = 2;
+const ROOM_TYPE_LIFT = 3;
+const ROOM_TYPE_COWORKING = 4;
+const ROOM_TYPE_TOILET = 5;
 
-async function schedule_get(){
+async function schedule_get(room_type, number){
     let schedule;
-    const temp = await fetch('http://127.0.0.1:5000/schedule')
-    schedule = await temp.json();
-	return await schedule;
+    let links = new Map();
+    links.set(ROOM_TYPE_LEARNING, 'http://127.0.0.1:5000/schedule?type=learning&number=');
 
+    if (room_type == ROOM_TYPE_LEARNING){
+        const temp = await fetch(links.get(ROOM_TYPE_LEARNING) + number)
+        schedule = await temp.json();
+	    return await schedule;
+    }
 
 }
 
 
-async function fun(number, b){
-	if (b == 0){
+async function fun(number, room_type){
+	if (room_type == ROOM_TYPE_LEARNING){
 	 var tip = "Учебная аудитория № ";
-	 var schedule = await schedule_get();
+	 var schedule = await schedule_get(room_type, number);
+	 console.log(schedule);
 
 	}
-	if (b == 1){
+	if (room_type == ROOM_TYPE_TEACHERS){
 		var tip = "Вход только для преподавателей № ";
 	}
-	if (b == 2){
+	if (room_type == ROOM_TYPE_SERVICE){
 	 var tip = "Служебное помещение № ";
 	 }
 	
-	if (b == 3){
+	if (room_type == ROOM_TYPE_LIFT){
 	 var tip = "Лифт № ";
     }
-	if (b == 4){
+	if (room_type == ROOM_TYPE_COWORKING){
 	 var tip = "Коворкинг № ";
     }
-	if (b == 5){
+	if (room_type == ROOM_TYPE_TOILET){
 	 var tip = "Туалет № ";
 	}
 	document.querySelector(".win1").innerHTML = tip + number;
