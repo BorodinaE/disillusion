@@ -962,30 +962,30 @@ button:hover{
 
 .window {
     background-color: white;
-    border: 3px solid darkblue;
-    border-radius: 10px;
-    width: 300px;
-    height: 50px;
+    border: 0.02vw solid darkblue;
+    border-radius: 1vw;
+    font-size: 2vw;
     text-align: center;
     color:blue;
     position: absolute;
+    margin: 15vw 30vw 15vw 30vw;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    margin: auto;
-    padding: 20px 8px 20px 8px;
+    padding: 1vw 1vw 1vw 1vw;
     box-shadow: 0 0 720px 720px rgba(51, 54, 100, 0.5);
-
+    
 }
 .window:target {display: block;}
 .close {
     display: inline-block;
     color: white;
-    padding: 8px 8px 8px 8px;
+    padding: 1vw 1vw 1vw 1vw;
     background-color: blue;
-    border-radius: 10px;
-    margin-top: 10px;
+    border-radius: 1vw;
+    margin-top: 1vw;
+    
     text-decoration: none;
     cursor: pointer;
 }
