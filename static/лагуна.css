@@ -961,19 +961,20 @@ button:hover{
 
 
 .window {
-    background-color: white;
-    border: 0.02vw solid darkblue;
-    border-radius: 1vw;
-    font-size: 2vw;
+ background-color: white;
+    border: 3px solid darkblue;
+    border-radius: 0.5vw;
+    width: 300px;
+    height: 50px;
     text-align: center;
     color:blue;
     position: absolute;
-    margin: 15vw 30vw 15vw 30vw;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 1vw 1vw 1vw 1vw;
+    margin: auto;
+    padding: 20px 8px 20px 8px;
     box-shadow: 0 0 720px 720px rgba(51, 54, 100, 0.5);
     
 }
@@ -981,11 +982,11 @@ button:hover{
 .close {
     display: inline-block;
     color: white;
-    padding: 1vw 1vw 1vw 1vw;
+    padding: 8px 8px 8px 8px;
     background-color: blue;
-    border-radius: 1vw;
-    margin-top: 1vw;
-    
+    border-radius: 10px;
+    margin-top: 10px;
+    max-width: 200px;
     text-decoration: none;
     cursor: pointer;
 }
