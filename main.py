@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 import json
+import reload
 import os
 
 app = Flask(__name__)
@@ -17,9 +18,11 @@ def get_schedule():
         schedule = json.load(f)
     return schedule[request.args.get('number')]["09.01.2024"]
 
-@app.route('/zxcvb123')
+@app.route('/git_update')
 def autoreload():
     os.system(f'git pull https://{TOKEN}@github.com/BorodinaE/disillusion.git')
+    with open('reload.py', 'w+') as f:
+        f.write('pass;')
     return 'reload success'
 
 
