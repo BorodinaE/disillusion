@@ -8,7 +8,7 @@ const ROOM_TYPE_TOILET = 5;
 async function schedule_get(room_type, number){
     let schedule;
     let links = new Map();
-    links.set(ROOM_TYPE_LEARNING, 'http://127.0.0.1:5000/schedule?type=learning&number=');
+    links.set(ROOM_TYPE_LEARNING, 'https://9c4e-5-19-99-250.ngrok-free.app/schedule?type=learning&number=');
 
     if (room_type == ROOM_TYPE_LEARNING){
         const temp = await fetch(links.get(ROOM_TYPE_LEARNING) + number)
