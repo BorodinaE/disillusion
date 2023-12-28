@@ -18,6 +18,8 @@ def get_schedule():
         schedule = json.load(f)
     return schedule[request.args.get('number')]["09.01.2024"]
 
+pass
+
 @app.route('/git_update')
 def autoreload():
     os.system(f'git pull https://{TOKEN}@github.com/BorodinaE/disillusion.git')
