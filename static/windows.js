@@ -18,7 +18,6 @@ async function schedule_get(room_type, number){
 
 }
 
-
 async function work_with_window(number, room_type){
 	if (room_type == ROOM_TYPE_LEARNING){
 	 var tip = "Учебная аудитория № ";
